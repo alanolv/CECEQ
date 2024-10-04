@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navBar.css";
+import arrowLineUp from "../sources/svg/arrowLineUp.svg";
+import arrowLineDown from "../sources/svg/arrowLineDown.svg";
 import { NavLink } from "react-router-dom";
 
 export default function NavBar() {
+  const [isInicioHovered, setIsInicioHovered] = useState(false);
+  const [isServicioHovered, setIsServicioHovered] = useState(false);
+  const [isComunicacionHovered, setIsComunicacionHovered] = useState(false);
   return (
     <div className="navBar">
       <div className="logo">
@@ -12,11 +17,12 @@ export default function NavBar() {
           className="img-logo"
         />
       </div>
-      <div className="menu">
-        <NavLink to="/" className="nav-inicio">
-          Inicio
-          <div className="dropDownMenu-inicio">
-            <NavLink to="/Bienvenida">Bienvenida</NavLink>
+      <div className="menu" onMouseEnter={()=>{setIsInicioHovered(true)}} onMouseLeave={()=>{setIsInicioHovered(false)}}>
+        <NavLink to="/" className="nav-inicio" onMouseEnter={()=>setIsInicioHovered(true)} onMouseLeave={()=>setIsInicioHovered(false)}>
+          Inicio <img src={isInicioHovered ? arrowLineDown : arrowLineUp} alt="arrow line" width="20px" />
+          <div className={`dropDownMenu-inicio ${isInicioHovered ? 'show' : ''}`}>
+            <h2>Bienvenido a CECEQ</h2>
+            <NavLink to="/Bienvenida">Bienvenida </NavLink>
             <NavLink to="/Directorio">Directorio</NavLink>
             <NavLink to="/HorarioAtención">Horario de atención</NavLink>
             <NavLink to="/MarcoJuridico">Marco Juridico</NavLink>
