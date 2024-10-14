@@ -5,6 +5,16 @@ import "./layout.css";
 
 export default function Layout({children}){{
     return(
-        <></>
+        <>
+        <div className="navbar">
+        <NavBar/>
+        </div>
+        <div className="content">
+        {children}
+        </div>
+        <div className="footer">
+        <Footer/>
+        </div>
+        </>
     )
 }}
