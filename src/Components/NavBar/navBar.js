@@ -14,12 +14,32 @@ export default function NavBar() {
       <div className="navbar-links">
         <NavLink to="/" className="nav-link">
           Inicio
+          <div className="navbar-dropdown" style={{left:"-110%"}}>
+            <NavLink to="/Bienvenida">Bienvenida</NavLink>
+            <NavLink to="/Directorio">Directorio</NavLink>
+            <NavLink to="/HorarioAtención">Horario de atención</NavLink>
+            <NavLink to="/MarcoJuridico">Marco Juridico</NavLink>
+            <NavLink to="/Nosotros">Nosotros</NavLink>
+          </div>
         </NavLink>
-        <NavLink to="/Servicios" className="nav-link">
+        <NavLink to="/Servicios" className="nav-link" >
           Servicios
+          <div className="navbar-dropdown" style={{left:"-55%"}}>
+            <NavLink to="/Biblioteca">Biblioteca publica</NavLink>
+            <NavLink to="/CentroComputo">Centro de computo</NavLink>
+            <NavLink to="/Talleres">Talleres</NavLink>
+            <NavLink to="/Instalaciones">Instalaciones</NavLink>
+            <NavLink to="/SitiosInterés">Sitios de interés</NavLink>
+            <NavLink to="/Visitas">Visitas</NavLink>
+          </div>
         </NavLink>
         <NavLink to="/Comunicación" className="nav-link">
           Comunicación
+          <div className="navbar-dropdown" style={{left:"-10%"}}>
+            <NavLink to="/Boletines">Boletines</NavLink>
+            <NavLink to="/Tríptico">Tríptico</NavLink>
+            <NavLink to="/Ejeradio">Eje 5 radio</NavLink>
+          </div>
         </NavLink>
         <NavLink to="/Dependencias" className="nav-link">
           Dependencias
