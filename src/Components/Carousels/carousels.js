@@ -1,16 +1,20 @@
+import './carousels.css';
+import BannerCadaTodos from "../../sources/images/bannerCasaDeTodos.png"
+import Cultura360 from "../../sources/images/cultura360.png"
+import eje5 from "../../sources/images/eje5.png"
 
 export default function Carrusel() {
   return (
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://via.placeholder.com/800x400.png?text=First+Slide" class="d-block w-100" alt="..."/>
+      <img src={BannerCadaTodos} class="d-block w-100 custom-image" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src="https://via.placeholder.com/800x400.png?text=Second+Slide" class="d-block w-100" alt="..."/>
+      <img src={Cultura360} class="d-block w-100 custom-image" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src="https://via.placeholder.com/800x400.png?text=Second+Slide" class="d-block w-100" alt="..."/>
+      <img src={eje5} class="d-block w-100 custom-image" alt="..."/>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

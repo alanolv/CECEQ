@@ -6,7 +6,7 @@
     margin: 0px;
     padding: 0px;
     position: relative;
-    
+    overflow: hidden;
     
 }
 
@@ -53,6 +53,22 @@
         display: flex;
     }
 
+}
+@media (max-width: 768px) {
+    .navbar-links {
+        display: none; /* Oculta los enlaces de navegación */
+    }
+    .navbar-content {
+        flex-direction: column;
+        justify-content: center; /* Cambia la dirección de los elementos a columna */
+        align-items: center; /* Centra los elementos */
+    }
+    .navbar-logos {
+        display: flex;
+        margin-top: 10px;
+        justify-content: center; /* Centra el logo */
+        width: 100%; /* Asegura que el contenedor del logo ocupe todo el ancho */
+    }
 }
 /* Navbar DropdownMenu*/
 .navbar-dropdown{
