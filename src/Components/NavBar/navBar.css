@@ -36,7 +36,7 @@
     margin-right:20px ;
 }
 
-.nav-link{
+.navbar-link{
     text-decoration: none;
     color: white;
     margin-left: 15px;
@@ -44,7 +44,10 @@
     font-size: 20px;
     position: relative;
 }
-.nav-link:hover {
+.navbar-link img{
+    margin-left: 5px;
+}
+.navbar-link:hover {
     color: #d0e8ff;
     .navbar-dropdown{
         display: flex;

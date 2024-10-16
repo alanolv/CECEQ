@@ -1,8 +1,14 @@
-.navbar{
+.navbars{
     margin: 0px;
     padding: 0px;
     background-color: #4197CB;
     display: flex;
     width: 100vw;
     height: 88px;
+}
+
+.content{
+   display:flex;
+   width: 100vw;
+   
 }

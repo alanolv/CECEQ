@@ -6,7 +6,7 @@ import "./layout.css";
 export default function Layout({children}){{
     return(
         <>
-        <div className="navbar">
+        <div className="navbars">
         <NavBar/>
         </div>
         <div className="content">

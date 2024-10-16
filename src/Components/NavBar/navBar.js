@@ -24,9 +24,9 @@ export default function NavBar() {
         <img src={heraldica} alt="logo"/>
       </div>
       <div className="navbar-links" >
-        <NavLink to="/" className="nav-link" onMouseEnter={() => handleMouseEnter("inicio")} onMouseLeave={handleMouseLeave}>
-          Inicio <img src={ hoveredLink === "inicio" ? arrowLineDown : arrowLineUp} alt="arrow" width={10}/>
-          <div className="navbar-dropdown" style={{left:"-82%"}}>
+        <NavLink to="/" className="navbar-link" onMouseEnter={() => handleMouseEnter("inicio")} onMouseLeave={handleMouseLeave}>
+        <div style={{display:'flex',alignItems:'center'}}>Inicio<img src={ hoveredLink === "inicio" ? arrowLineDown : arrowLineUp} alt="arrow" width={10}/></div>
+        <div className="navbar-dropdown" style={{left:"-82%"}}>
             <NavLink to="/Bienvenida">Bienvenida</NavLink>
             <NavLink to="/Directorio">Directorio</NavLink>
             <NavLink to="/HorarioAtención">Horario de atención</NavLink>
@@ -34,8 +34,8 @@ export default function NavBar() {
             <NavLink to="/Nosotros">Nosotros</NavLink>
           </div>
         </NavLink>
-        <NavLink to="/Servicios" className="nav-link" onMouseEnter={() => handleMouseEnter("servicio")} onMouseLeave={handleMouseLeave}>
-          Servicios <img src={ hoveredLink === "servicio" ? arrowLineDown : arrowLineUp} alt="arrow" width={10}/>
+        <NavLink to="/Servicios" className="navbar-link" onMouseEnter={() => handleMouseEnter("servicio")} onMouseLeave={handleMouseLeave}>
+        <div style={{display:'flex',alignItems:'center'}}>Servicios <img src={ hoveredLink === "servicio" ? arrowLineDown : arrowLineUp} alt="arrow" width={10}/></div>
           <div className="navbar-dropdown" style={{left:"-40%"}}>
             <NavLink to="/Biblioteca">Biblioteca publica</NavLink>
             <NavLink to="/CentroComputo">Centro de computo</NavLink>
@@ -45,18 +45,18 @@ export default function NavBar() {
             <NavLink to="/Visitas">Visitas</NavLink>
           </div>
         </NavLink>
-        <NavLink to="/Comunicación" className="nav-link" onMouseEnter={() => handleMouseEnter("comunicacion")} onMouseLeave={handleMouseLeave}>
-          Comunicación <img src={ hoveredLink === "comunicacion" ? arrowLineDown : arrowLineUp} alt="arrow" width={10}/>
-          <div className="navbar-dropdown" style={{left:"-5%"}}>
+        <NavLink to="/Comunicación" className="navbar-link" onMouseEnter={() => handleMouseEnter("comunicacion")} onMouseLeave={handleMouseLeave}>
+        <div style={{display:'flex',alignItems:'center'}}>Comunicación <img src={ hoveredLink === "comunicacion" ? arrowLineDown : arrowLineUp} alt="arrow" width={10}/></div>
+          <div className="navbar-dropdown" style={{left:"-3%"}}>
             <NavLink to="/Boletines">Boletines</NavLink>
             <NavLink to="/Tríptico">Tríptico</NavLink>
             <NavLink to="/Ejeradio">Eje 5 radio</NavLink>
           </div>
         </NavLink>
-        <NavLink to="/Dependencias" className="nav-link">
+        <NavLink to="/Dependencias" className="navbar-link">
           Dependencias
         </NavLink>
-        <NavLink to="/Transparencia" className="nav-link">
+        <NavLink to="/Transparencia" className="navbar-link">
           Transparencia
         </NavLink>
       </div>
