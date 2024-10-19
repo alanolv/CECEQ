@@ -5,7 +5,7 @@ import "./layout.css";
 
 export default function Layout({children}){{
     return(
-        <>
+        <div className="content-layout">
         <div className="navbars">
         <NavBar/>
         </div>
@@ -15,6 +15,6 @@ export default function Layout({children}){{
         <div className="footer">
         <Footer/>
         </div>
-        </>
+        </div>
     )
 }}
