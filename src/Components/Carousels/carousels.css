@@ -1,7 +1,8 @@
-@media (max-width: 768px) {
+@media (max-width: 854px) {
     .custom-image{
         width: 100vw;
         height: 55vw;
+        transition: margin 0.3s ease;
     }
 
 }
