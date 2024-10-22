@@ -6,6 +6,7 @@
     margin: 0px;
     padding: 0px;
     position: relative;
+    background-color: #4197CB;
 
     
 }
@@ -65,18 +66,18 @@
 
 @media (max-width: 853px) {
     .navbar-links {
-        display: none; /* Oculta los enlaces de navegación */
+        display: none; 
     }
     .navbar-content {
         flex-direction: column;
-        justify-content: center; /* Cambia la dirección de los elementos a columna */
-        align-items: center; /* Centra los elementos */
+        justify-content: center; 
+        align-items: center; 
     }
     .navbar-logos {
         display: flex;
         margin-top: 10px;
-        justify-content: center; /* Centra el logo */
-        width: 100%; /* Asegura que el contenedor del logo ocupe todo el ancho */
+        justify-content: center; 
+        width: 100%;
     }
 }
 

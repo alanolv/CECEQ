@@ -1,0 +1,40 @@
+.footer {
+    background-color: #262626;
+    display: flex;
+    flex-direction: column; 
+    justify-content: start;
+    align-items: center;
+    color: white;
+    text-align: start;
+    overflow: visible;
+}
+
+.footer-content {
+    margin: 20px;
+    margin-top: 25px;
+}
+
+.footer-copy {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap; 
+    width: 100%; 
+}
+
+.footer-copy img {
+    width: 28px;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+@media (max-width: 768px) {
+    .footer-copy img {
+        margin-top: 5px;
+        margin-left: 0px;
+        margin-right: 10px; 
+    }
+    .footer{
+        font-size: 16px;
+    }
+}
