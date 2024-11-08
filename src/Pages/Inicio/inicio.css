@@ -3,9 +3,12 @@
   height: 100%;
   background-color: #f5f5f5;
 }
+
+/* Estilos correspondientes a la seccion de talleres */
+
 .inicio-talleres-recomendados {
   display: flex;
-  padding: 20px;
+ 
   flex-direction: column;
   align-items: center;
   justify-content: start;
@@ -13,7 +16,180 @@
   min-height: 900px;
   background-color: #f5f5f5;
 }
+.inicio-talleres-parrafo{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
 .inicio-talleres {
-  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.inicio-titulo{
+  margin-top: 30px;
+  font-size: 2.5em;
+  color: #1c1c1c;
 }
 
+.posters{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.posters img{
+  margin: 15px;
+}
+.inicio-talleres-buttons{
+  cursor: pointer;
+}
+.prev-poster,.current-poster,.next-poster{
+  width: 237px;
+  height: 380px;
+}
+
+@media (min-width: 1080px) {
+  .posters .current-poster{
+    width: 355px;
+    height: 570px;
+  }
+}
+@media (max-width: 1080px) {
+  .posters .current-poster{
+    width: 237px;
+    height: 380px;
+  }
+  .prev-poster,.next-poster{
+    width: 189px;
+    height: 304px;
+  }
+}
+@media (max-width: 905px) {
+  .posters .current-poster{
+    width: 178px;
+    height: 285px;
+  }
+  .prev-poster,.next-poster{
+    width: 142px;
+    height: 228px;
+  }
+}
+
+@media (max-width: 768px) {
+  .posters .current-poster{
+    width: 178px;
+    height: 285px;
+  }
+  .prev-poster,.next-poster{
+    width: 116px;
+    height: 190px;
+  }
+}
+/* Estilos correspondientes a la galeria de imagenes */
+.inicio-galerias{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  width: 100vw;
+  min-height: 520px;
+  color: #f5f5f5;
+  background-color: #1c1c1c;
+}
+.inicio-galerias-imagenes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}
+
+.inicio-galerias .inicio-galerias-titulo{
+  margin-top: 30px;
+  font-size: 2.5em;
+  color: #f5f5f5;
+}
+
+/* Estilos correspondientes a la seccion de sobre nosotros */
+
+.inicio-sobre-nosotros{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  min-height: 890px;
+  background-color: #f5f5f5;
+}
+
+.inicio-sobre-nosotros .inicio-sobre-nosotros-titulo{
+  margin-top: 30px;
+  font-size: 2.5em;
+  color: #1c1c1c;
+}
+
+.inicio-sobre-nosotros-parrafo{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.inicio-sobre-nosotros-video{
+  margin-top: 30px;
+  width: 50%;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width: 1024px) {
+  .inicio-sobre-nosotros-video{
+    width: 80%;
+    height: 480px;
+   
+  }
+}
+
+/* Estilos correspondientes a la seccion de como llegar*/
+.inicio-ubicacion{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  min-height: 480px;
+  background-color: #d3e0fd;
+}
+.inicio-ubicacion-titulo{
+  margin-top: 30px;
+  font-size: 2.5em;
+  color: #1c1c1c;
+}
+.inicio-ubicacion-mapa{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 55%;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .inicio-ubicacion-mapa{
+    width: 70%;
+    height: 480px;
+   
+  }
+}
