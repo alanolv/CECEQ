@@ -20,6 +20,7 @@
   width: 100vw;
 }
 
+
 .footer {
   margin: 0px;
   padding: 0px;
@@ -27,4 +28,10 @@
   display: flex;
   width: 100vw;
   min-height: 148;
+}
+.social-sidebar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
 }

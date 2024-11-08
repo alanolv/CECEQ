@@ -29,7 +29,7 @@ export default function NavBar() {
         <div className="navbar-dropdown" style={{left:"-82%"}}>
             <NavLink to="/Bienvenida">Bienvenida</NavLink>
             <NavLink to="/Directorio">Directorio</NavLink>
-            <NavLink to="/HorarioAtención">Horario de atención</NavLink>
+            <NavLink to="/HorarioAtencion">Horario de atención</NavLink>
             <NavLink to="/MarcoJuridico">Marco Juridico</NavLink>
             <NavLink to="/Nosotros">Nosotros</NavLink>
           </div>
@@ -57,7 +57,10 @@ export default function NavBar() {
           Dependencias
         </NavLink>
         <NavLink to="/Transparencia" className="navbar-link">
-          Transparencia
+        <div style={{display:'flex',alignItems:'center'}}>Comunicación <img src={ hoveredLink === "comunicacion" ? arrowLineDown : arrowLineUp} alt="arrow" width={10}/></div>
+          <div className="navbar-dropdown" style={{left:"-3%"}}>
+            <NavLink to="/Boletines">Aviso de Privacidad</NavLink>
+            </div>
         </NavLink>
       </div>
       <div className="navbar-searchbar">
