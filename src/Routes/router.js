@@ -1,5 +1,5 @@
 import { BrowserRouter,Routes,Route } from "react-router-dom";
-import Inicio from "../Pages/Inicio/inicio";
+import Inicio from "../Pages/SeccionInicio/Inicio/inicio";
 import Layout from "../LayoutInicio/layout";
 
 export default function Router() {

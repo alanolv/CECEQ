@@ -1,13 +1,13 @@
 import React from "react";
 import "./inicio.css";
 import ReactPlayer from "react-player";
-import Carrusel from "../../Components/Carousels/carousels";
-import LeftArrow from "../../sources/svg/left-arrow.svg";
-import RightArrow from "../../sources/svg/right-arrow.svg";
-import SpotifyImage from "../../sources/images/spotify.png";
-import Murales from "../../sources/images/murales.png";
-import Agenda from "../../sources/images/agenda.png";
-import ImgGallery from "../../sources/images/imgGallery.png";
+import Carrusel from "../../../Components/Carousels/carousels";
+import LeftArrow from "../../../sources/svg/left-arrow.svg";
+import RightArrow from "../../../sources/svg/right-arrow.svg";
+import SpotifyImage from "../../../sources/images/spotify.png";
+import Murales from "../../../sources/images/murales.png";
+import Agenda from "../../../sources/images/agenda.png";
+import ImgGallery from "../../../sources/images/imgGallery.png";
 
 export default function Inicio() {
   const handlePrevImage = () => {
