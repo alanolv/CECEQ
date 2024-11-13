@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function Directorio() {
-  return <></>;
+  return(
+    <div>
+      <h1>Directorio</h1>
+    </div>
+  )
 }
