@@ -3,7 +3,7 @@ import React from "react";
 export default function Directorio() {
   return(
     <div>
-      <h1>Directorio</h1>
+      <h2>Directorio</h2>
     </div>
   )
 }

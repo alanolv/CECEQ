@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 import NavBar from "../../Components/NavBar/navBar";
 import Footer from "../../Components/Footer/footer";
 import FacebookCard from "../../Components/FacebookCard/facebookCard";
-import { banners } from "../../sources/utilities/BannerPaginas";
+import { banners } from "../../sources/utilities/Banners/BannerPaginas";
 import TwiterCard  from "../../Components/TwiterCard/twiterCard";
 
 export default function Layout({ children }) {
@@ -40,7 +40,7 @@ export default function Layout({ children }) {
         )}
         <div className="blog-content">
         <div className="children-content">{children}</div>
-        {location.pathname !== "/" && bannerImage && (
+        {location.pathname !== "/" &&  (
           <>
             <div className="social-sidebar">
               <FacebookCard />

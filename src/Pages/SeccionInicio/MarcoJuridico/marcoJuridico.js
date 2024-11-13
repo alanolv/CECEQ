@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function MarcoJuridico() {
-    return <></>;
-    }
+  return (
+    <>
+      <h2>Marco Juridico</h2>
+    </>
+  );
+}
