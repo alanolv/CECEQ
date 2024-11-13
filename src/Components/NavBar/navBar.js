@@ -45,12 +45,12 @@ export default function NavBar() {
             <NavLink to="/Visitas">Visitas</NavLink>
           </div>
         </NavLink>
-        <NavLink className="navbar-link" onMouseEnter={() => handleMouseEnter("comunicacion")} onMouseLeave={handleMouseLeave}>
+        <NavLink to="/Comunicacion"className="navbar-link" onMouseEnter={() => handleMouseEnter("comunicacion")} onMouseLeave={handleMouseLeave}>
         <div style={{display:'flex',alignItems:'center'}}>Comunicación <img src={ hoveredLink === "comunicacion" ? arrowLineDown : arrowLineUp} alt="arrow" width={10}/></div>
           <div className="navbar-dropdown" style={{left:"-3%"}}>
             <NavLink to="/Boletines">Boletines</NavLink>
-            <NavLink to="/Tríptico">Tríptico</NavLink>
-            <NavLink to="/Ejeradio">Eje 5 radio</NavLink>
+            <NavLink to="/Triptico">Tríptico</NavLink>
+            <NavLink to="/EjeRadio">Eje 5 radio</NavLink>
           </div>
         </NavLink>
         <NavLink to="/Dependencias" className="navbar-link">

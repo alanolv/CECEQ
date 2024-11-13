@@ -5,7 +5,7 @@ import NavBar from "../../Components/NavBar/navBar";
 import Footer from "../../Components/Footer/footer";
 import FacebookCard from "../../Components/FacebookCard/facebookCard";
 import { banners } from "../../sources/utilities/Banners/BannerPaginas";
-import TwiterCard  from "../../Components/TwiterCard/twiterCard";
+import TwiterCard from "../../Components/TwiterCard/twiterCard";
 
 export default function Layout({ children }) {
   const location = useLocation();
@@ -39,16 +39,15 @@ export default function Layout({ children }) {
           </>
         )}
         <div className="blog-content">
-        <div className="children-content">{children}</div>
-        {location.pathname !== "/" &&  (
-          <>
-            <div className="social-sidebar">
-              <FacebookCard />
-              <TwiterCard />
-            </div>
-          </>
-        )}
-        
+          <div className="children-content">{children}</div>
+          {location.pathname !== "/" && (
+            <>
+              <div className="social-sidebar">
+                <FacebookCard />
+                <TwiterCard />
+              </div>
+            </>
+          )}
         </div>
       </div>
       <div className="footer">

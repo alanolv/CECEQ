@@ -3,7 +3,7 @@ import React from "react";
 export default function Visitas() {
   return (
     <div>
-      <h1>Visitas</h1>
+      <h2>Visitas</h2>
     </div>
   );
 }

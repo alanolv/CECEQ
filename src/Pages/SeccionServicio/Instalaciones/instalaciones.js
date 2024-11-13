@@ -3,7 +3,7 @@ import React from "react";
 export default function Instalaciones() {
   return (
     <div>
-      <h1>Instalaciones</h1>
+      <h2>Instalaciones</h2>
     </div>
   );
 }

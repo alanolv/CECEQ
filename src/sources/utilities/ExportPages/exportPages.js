@@ -13,3 +13,9 @@ export {default as Instalaciones} from "../../../Pages/SeccionServicio/Instalaci
 export {default as SitiosInteres} from "../../../Pages/SeccionServicio/SitiosDeInteres/sitiosInteres";
 export {default as Talleres} from "../../../Pages/SeccionServicio/Talleres/talleres";
 export {default as Visitas} from "../../../Pages/SeccionServicio/Visitas/visitas";
+
+//Exportamos las paginas de la seccion de comunicacion
+export {default as Boletines} from "../../../Pages/SeccionComunicacion/Boletines/boletines";
+export {default as Comunicacion} from "../../../Pages/SeccionComunicacion/Comunicacion/comunicacion";
+export {default as EjeRadio} from "../../../Pages/SeccionComunicacion/EjeRadio/ejeRadio";
+export {default as Triptico} from "../../../Pages/SeccionComunicacion/Tripticos/triptico";

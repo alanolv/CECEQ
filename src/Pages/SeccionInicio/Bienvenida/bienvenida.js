@@ -3,7 +3,7 @@ import React from "react";
 export default function Bienvenida(){
     return(
         <>
-            <h1>Bienvenidos a la pagina de Bienvenida</h1>
+            <h2>Bienvenidos a la pagina de Bienvenida</h2>
             <p>Esta es la pagina de bienvenida</p>
         </>
     )
