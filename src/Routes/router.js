@@ -38,9 +38,6 @@ export default function Router() {
         <Route path="/Visitas" element={<Layout><Pagina.Visitas/></Layout>}/>
 
         //Rutas de la seccion de Comunicacion//
-
-        // Ruta de acceso a la pagina de Comunicacion
-        <Route path="/Comunicacion" element={<Layout><Pagina.Comunicacion/></Layout>}/>
         //Ruta de acceso a la pagina de Centro de computo        
         <Route path="/Boletines" element={<Layout><Pagina.Boletines/></Layout>}/>
         //Ruta de acceso a la pagina de Talleres
@@ -48,7 +45,9 @@ export default function Router() {
         //Ruta de acceso a la pagina de Instalaciones
         <Route path="/EjeRadio" element={<Layout><Pagina.EjeRadio/></Layout>}/>
 
-
+        //Rutas de la seccion de Dependencias//
+        //Ruta de acceso a la pagina de Dependencias        
+        <Route path="/Dependencias" element={<Layout><Pagina.Dependencias/></Layout>}/>
 
       </Routes>
     </BrowserRouter>

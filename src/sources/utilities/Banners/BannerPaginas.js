@@ -65,5 +65,10 @@ export const banners = [
     {
         page: "/EjeRadio",
         image: CasaTodos,
-    }
+    },
+    //Banners Seccion de Dependencias
+    {
+        page: "/Dependencias",
+        image: Cultura360
+    },
 ];

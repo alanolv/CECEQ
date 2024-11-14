@@ -20,8 +20,10 @@ export default function NavBar() {
   return (
     <div className="navbar-content">
       <div className="navbar-logos">
+        <NavLink to="/">
         <img src={logoM} alt="logo"/>
         <img src={heraldica} alt="logo"/>
+        </NavLink>
       </div>
       <div className="navbar-links" >
         <NavLink to="/" className="navbar-link" onMouseEnter={() => handleMouseEnter("inicio")} onMouseLeave={handleMouseLeave}>
@@ -45,7 +47,7 @@ export default function NavBar() {
             <NavLink to="/Visitas">Visitas</NavLink>
           </div>
         </NavLink>
-        <NavLink to="/Comunicacion"className="navbar-link" onMouseEnter={() => handleMouseEnter("comunicacion")} onMouseLeave={handleMouseLeave}>
+        <NavLink className="navbar-link" onMouseEnter={() => handleMouseEnter("comunicacion")} onMouseLeave={handleMouseLeave}>
         <div style={{display:'flex',alignItems:'center'}}>Comunicación <img src={ hoveredLink === "comunicacion" ? arrowLineDown : arrowLineUp} alt="arrow" width={10}/></div>
           <div className="navbar-dropdown" style={{left:"-3%"}}>
             <NavLink to="/Boletines">Boletines</NavLink>
@@ -56,10 +58,10 @@ export default function NavBar() {
         <NavLink to="/Dependencias" className="navbar-link">
           Dependencias
         </NavLink>
-        <NavLink to="/Transparencia" className="navbar-link">
-        <div style={{display:'flex',alignItems:'center'}}>Comunicación <img src={ hoveredLink === "comunicacion" ? arrowLineDown : arrowLineUp} alt="arrow" width={10}/></div>
+        <NavLink to="https://portal.queretaro.gob.mx/transparencia/" className="navbar-link">
+        <div style={{display:'flex',alignItems:'center'}}>Transparencia <img src={ hoveredLink === "comunicacion" ? arrowLineDown : arrowLineUp} alt="arrow" width={10}/></div>
           <div className="navbar-dropdown" style={{left:"-3%"}}>
-            <NavLink to="/Boletines">Aviso de Privacidad</NavLink>
+            <NavLink to="/AvisoPrivacidad">Aviso de Privacidad</NavLink>
             </div>
         </NavLink>
       </div>

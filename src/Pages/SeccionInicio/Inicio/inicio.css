@@ -90,6 +90,12 @@
     height: 190px;
   }
 }
+@media (max-width: 670px) {
+  
+  .prev-poster,.next-poster{
+    display: none;
+  }
+}
 /* Estilos correspondientes a la galeria de imagenes */
 .inicio-galerias{
   display: flex;
