@@ -71,4 +71,9 @@ export const banners = [
         page: "/Dependencias",
         image: Cultura360
     },
+     //Banners Seccion de Transparencia
+     {
+        page: "/AvisoPrivacidad",
+        image: Cultura360
+    },
 ];

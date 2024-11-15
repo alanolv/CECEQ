@@ -21,3 +21,6 @@ export {default as Triptico} from "../../../Pages/SeccionComunicacion/Tripticos/
 
 //Exportamos las paginas de la seccion de dependencias
 export {default as Dependencias} from "../../../Pages/SeccionDependencias/Dependencias/dependencias";
+
+//Exportamos las paginas de la seccion de transparencia
+export {default as Transparencia} from "../../../Pages/SeccionTransparencia/AvisoPrivacidad/avisoPrivacidad"

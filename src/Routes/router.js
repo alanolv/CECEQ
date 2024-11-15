@@ -49,6 +49,10 @@ export default function Router() {
         //Ruta de acceso a la pagina de Dependencias        
         <Route path="/Dependencias" element={<Layout><Pagina.Dependencias/></Layout>}/>
 
+        //Rutas de la seccion de Transparencia//
+        //Ruta de acceso a la pagina de Dependencias        
+        <Route path="/AvisoPrivacidad" element={<Layout><Pagina.Transparencia/></Layout>}/>
+
       </Routes>
     </BrowserRouter>
   );
