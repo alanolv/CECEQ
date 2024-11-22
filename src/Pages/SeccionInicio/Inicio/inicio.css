@@ -96,6 +96,22 @@
     display: none;
   }
 }
+
+@media (max-width: 344px) {
+  .posters .current-poster{
+    width: 142px;
+    height: 228px;
+  }
+  .prev-poster,.next-poster{
+    display: none;
+  }
+  .inicio-sobre-nosotros-video{
+    width: 40%;
+    height: 280px;
+   
+  }
+
+}
 /* Estilos correspondientes a la galeria de imagenes */
 .inicio-galerias{
   display: flex;

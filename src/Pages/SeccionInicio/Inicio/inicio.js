@@ -4,14 +4,16 @@ import ReactPlayer from "react-player";
 import Carrusel from "../../../Components/Carousels/carousels";
 import LeftArrow from "../../../sources/svg/left-arrow.svg";
 import RightArrow from "../../../sources/svg/right-arrow.svg";
-import SpotifyImage from "../../../sources/images/spotify.png";
-import Murales from "../../../sources/images/murales.png";
-import Agenda from "../../../sources/images/agenda.png";
-import ImgGallery from "../../../sources/images/imgGallery.png";
+import { posters } from "../../../sources/utilities/PosterTalleres/posterTalleres";
+import SpotifyImage from "../../../sources/images/Spotify.png";
+import Murales from "../../../sources/images/Murales.jpg";
+import Agenda from "../../../sources/images/Agenda.png";
+import ImgGallery from "../../../sources/images/ImgGallery.png";
+import { NavLink } from "react-router-dom";
 
 export default function Inicio() {
   const handlePrevImage = () => {
-    console.log("prev");
+    console.log(posters);
   };
   const handleNextImage = () => {
     console.log("Next");
@@ -39,7 +41,7 @@ export default function Inicio() {
             />
           </div>
           <img
-            src="http://gomezmorin.queretaro.gob.mx/images/ciclo%20de%20cine235x377.jpg?crc=3894128011"
+            src="http://gomezmorin.queretaro.gob.mx/images/stopmotion237x381.jpg?crc=220849467"
             alt="poster"
             className="prev-poster"
           />
@@ -65,10 +67,18 @@ export default function Inicio() {
           <div className="inicio-galerias">
             <h2 className="inicio-galerias-titulo">Galerias y mas</h2>
             <div className="inicio-galerias-imagenes">
-              <img src={Murales} alt="poster" />
-              <img src={SpotifyImage} alt="poster" />
-              <img src={ImgGallery} alt="poster" />
-              <img src={Agenda} alt="poster" />
+              <NavLink>
+                <img src={Murales} alt="poster" />
+              </NavLink>
+              <NavLink to="https://open.spotify.com/show/0WQWcsCIr3ItQSGAM049Yd?si=x7olq0uQT-mgocv6ga2VHA&utm_source=copy-link&nd=1">
+                <img src={SpotifyImage} alt="poster" />
+              </NavLink>
+              <NavLink>
+                <img src={ImgGallery} alt="poster" />
+              </NavLink>
+              <NavLink>
+                <img src={Agenda} alt="poster" />
+              </NavLink>
             </div>
           </div>
           <div className="inicio-sobre-nosotros">
@@ -101,12 +111,12 @@ export default function Inicio() {
             <h2 className="inicio-ubicacion-titulo">¿Como llegar?</h2>
             <div className="inicio-ubicacion-mapa">
               <iframe
+                title="Main youtube video"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2641.0758873966793!2d-100.38664790830697!3d20.586205968935488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d344d3acf867bd%3A0x76f4f9ea42a59fa8!2sCentro%20Educativo%20Cultural%20del%20Estado%20de%20Quer%C3%A9taro!5e0!3m2!1ses!2smx!4v1731037929064!5m2!1ses!2smx"
                 width="100%"
                 height="100%"
                 allowfullscreen=""
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
           </div>

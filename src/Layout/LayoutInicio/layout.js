@@ -26,7 +26,7 @@ export default function Layout({ children }) {
         <NavBar />
       </div>
       <div className="content">
-        {location.pathname !== "/" && bannerImage && (
+        {location.pathname !== "/" && location.pathname !== "/Murales" && bannerImage && (
           <>
             <div className="banner">
               <img
