@@ -53,6 +53,14 @@ export default function Router() {
         //Ruta de acceso a la pagina de Dependencias*/}
         <Route path="/AvisoPrivacidad" element={<Layout><Pagina.Transparencia/></Layout>}/>
 
+         {/* //Rutas de la seccion de murales//
+        //Ruta de acceso a la pagina de murales*/}
+        <Route path="/Murales" element={<Layout><Pagina.Murales/></Layout>}/>
+         {/* //Ruta de acceso a la pagina de galerias*/} 
+        <Route path="/Galerias" element={<Layout><Pagina.Galerias/></Layout>}/>
+          {/* //Ruta de acceso a la pagina de agenda*/}
+        <Route path="/Agenda" element={<Layout><Pagina.Agenda/></Layout>}/>
+        
       </Routes>
     </BrowserRouter>
   );

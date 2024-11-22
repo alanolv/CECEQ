@@ -1,0 +1,20 @@
+.directorio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 3rem 3rem 3rem 4rem;
+  }
+  
+  .directorio p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+.administracion-planeacion{
+    margin-top: 100px;
+}

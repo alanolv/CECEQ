@@ -4,12 +4,17 @@ import { useLocation } from "react-router-dom";
 import NavBar from "../../Components/NavBar/navBar";
 import Footer from "../../Components/Footer/footer";
 import FacebookCard from "../../Components/FacebookCard/facebookCard";
-import { banners } from "../../sources/utilities/Banners/BannerPaginas";
 import TwiterCard from "../../Components/TwiterCard/twiterCard";
+import { banners } from "../../sources/utilities/Banners/BannerPaginas";
 
 export default function Layout({ children }) {
   const location = useLocation();
   const [bannerImage, setBannerImage] = useState("");
+
+  const excludedBannerRoutes = ["/", "/Murales","/Galerias","/Agenda"];
+  const excludedSidebarRoutes = ["/", "/Murales", "/Galerias","/Agenda"];
+
+  const isExcludedRoute = (routes) => routes.includes(location.pathname);
 
   useEffect(() => {
     const banner = banners.find((b) => b.page === location.pathname);
@@ -26,27 +31,23 @@ export default function Layout({ children }) {
         <NavBar />
       </div>
       <div className="content">
-        {location.pathname !== "/" && location.pathname !== "/Murales" && bannerImage && (
-          <>
-            <div className="banner">
-              <img
-                src={bannerImage}
-                alt="Banner"
-                className="banner-image"
-                class="d-block w-100 custom-image"
-              />
-            </div>
-          </>
+        {!isExcludedRoute(excludedBannerRoutes) && bannerImage && (
+          <div className="banner">
+            <img
+              src={bannerImage}
+              alt="Banner"
+              className="banner-image"
+              class="d-block w-100 custom-image"
+            />
+          </div>
         )}
         <div className="blog-content">
           <div className="children-content">{children}</div>
-          {location.pathname !== "/" && (
-            <>
-              <div className="social-sidebar">
-                <FacebookCard />
-                <TwiterCard />
-              </div>
-            </>
+          {!isExcludedRoute(excludedSidebarRoutes) && (
+            <div className="social-sidebar">
+              <FacebookCard />
+              <TwiterCard />
+            </div>
           )}
         </div>
       </div>

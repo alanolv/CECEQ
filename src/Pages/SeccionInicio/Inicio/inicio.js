@@ -67,16 +67,16 @@ export default function Inicio() {
           <div className="inicio-galerias">
             <h2 className="inicio-galerias-titulo">Galerias y mas</h2>
             <div className="inicio-galerias-imagenes">
-              <NavLink>
+              <NavLink to="/Murales">
                 <img src={Murales} alt="poster" />
               </NavLink>
               <NavLink to="https://open.spotify.com/show/0WQWcsCIr3ItQSGAM049Yd?si=x7olq0uQT-mgocv6ga2VHA&utm_source=copy-link&nd=1">
                 <img src={SpotifyImage} alt="poster" />
               </NavLink>
-              <NavLink>
+              <NavLink to="/Galerias">
                 <img src={ImgGallery} alt="poster" />
               </NavLink>
-              <NavLink>
+              <NavLink to="/Agenda">
                 <img src={Agenda} alt="poster" />
               </NavLink>
             </div>
