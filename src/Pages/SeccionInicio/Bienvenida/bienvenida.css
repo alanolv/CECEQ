@@ -1,17 +1,30 @@
 .bienvenida {
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: start;
+  justify-content: center;
+  align-items: center;
   height: 100%;
   padding: 3rem 3rem 3rem 3rem;
 }
 
-.bienvenida p {
+.bienvenida {
   font-size: 1.5rem;
   font-weight: 330;
   text-align: left;
   margin-top: 1rem;
+  text-align: start;
+}
+.bienvenida-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.bienvenida h2{
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  text-align: center;
 }
 .image-1{
   display: flex;

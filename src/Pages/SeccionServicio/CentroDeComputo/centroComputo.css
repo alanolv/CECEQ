@@ -1,4 +1,4 @@
-.biblioteca {
+.centro-computo {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,20 +7,29 @@
     padding: 3rem 3rem 3rem 3rem;
   }
   
-  .biblioteca p , .biblioteca li{
+  .centro-computo {
     font-size: 1.5rem;
     font-weight: 330;
     text-align: left;
     margin-top: 1rem;
     text-align: start;
   }
-  .biblioteca-texto {
+  .centro-computo-texto {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
   }
-  .biblioteca h2{
+ 
+.centro-computo-texto-marcado {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-align: start;
+
+  }
+  .centro-computo h2{
     font-size: 2rem;
     font-weight: bold;
+    text-align: center;
   }

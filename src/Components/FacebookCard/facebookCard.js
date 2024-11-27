@@ -10,6 +10,7 @@ export default function FacebookCard() {
         scrolling="no"
         frameborder="0"
         allowfullscreen="true"
+        title="Facebook"
         allow="autoplay; encrypted-media;"
       ></iframe>
     </div>
