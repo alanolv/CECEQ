@@ -4,12 +4,12 @@
   justify-content: start;
   align-items: start;
   height: 100%;
-  padding: 3rem 3rem 3rem 4rem;
+  padding: 3rem 3rem 3rem 3rem;
 }
 
 .bienvenida p {
   font-size: 1.5rem;
-  font-weight: 300;
+  font-weight: 330;
   text-align: left;
   margin-top: 1rem;
 }

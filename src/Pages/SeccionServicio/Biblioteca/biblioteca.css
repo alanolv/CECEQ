@@ -1,4 +1,4 @@
-.directorio {
+.biblioteca {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,14 +7,16 @@
     padding: 3rem 3rem 3rem 3rem;
   }
   
-  .directorio p {
+  .biblioteca p , .biblioteca li{
     font-size: 1.5rem;
     font-weight: 330;
     text-align: left;
     margin-top: 1rem;
-    text-align: center;
+    text-align: start;
   }
-
-.administracion-planeacion{
-    margin-top: 100px;
-}
+  .biblioteca-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }

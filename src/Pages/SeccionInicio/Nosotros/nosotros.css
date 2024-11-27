@@ -1,0 +1,22 @@
+.nosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 3rem 3rem 3rem 3rem;
+}
+
+.nosotros p {
+  font-size: 1.5rem;
+  font-weight: 330;
+  text-align: left;
+  margin-top: 1rem;
+  text-align: start;
+}
+.nosotros-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
