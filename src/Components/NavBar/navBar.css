@@ -17,6 +17,16 @@
     flex:1;
     align-items: center;
     margin-left: 20px;
+    margin-right: 20px;
+    
+}
+@media (min-width: 853px) {
+    .navbar-logos {
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        min-width: 250px;
+    }
     
 }
 
@@ -56,11 +66,21 @@
     }
 
 }
+@media (max-width:1000px) {
+    .navbar-link{
+        transition: margin 0.3s ease;
+       
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 20px;
+    }
+}
 @media (max-width:950px) {
     .navbar-link{
         transition: margin 0.3s ease;
-        margin-left: 5px;
-        margin-right: 5px;
+        margin-left: 3px;
+        margin-right: 3px;
+        font-size: 18px;
     }
 }
 

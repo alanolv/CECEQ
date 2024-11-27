@@ -1,0 +1,35 @@
+.instalaciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 3rem 3rem 3rem 3rem;
+  }
+  
+  .instalaciones {
+    font-size: 1.5rem;
+    font-weight: 330;
+    text-align: left;
+    margin-top: 1rem;
+    text-align: start;
+  }
+  .instalaciones-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+ 
+.instalaciones-texto-marcado {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-align: start;
+
+  }
+  .instalaciones h2{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
