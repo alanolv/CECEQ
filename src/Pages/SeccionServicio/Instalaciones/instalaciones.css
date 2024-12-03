@@ -19,6 +19,7 @@
     flex-direction: column;
     justify-content: start;
     align-items: start;
+    line-height: 1.6;
   }
  
 .instalaciones-texto-marcado {
@@ -26,7 +27,7 @@
     font-size: 1.5rem;
     margin-top: 1rem;
     text-align: start;
-
+    line-height: 1.6;
   }
   .instalaciones h2{
     font-size: 2rem;

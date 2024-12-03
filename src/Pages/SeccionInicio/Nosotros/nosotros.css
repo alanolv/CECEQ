@@ -13,10 +13,12 @@
   text-align: left;
   margin-top: 1rem;
   text-align: start;
+  line-height: 1.6;
 }
 .nosotros-texto {
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: start;
+  line-height: 1.6;
 }

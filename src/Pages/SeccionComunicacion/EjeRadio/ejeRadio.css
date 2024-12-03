@@ -1,4 +1,4 @@
-.visitas{
+.radio{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,14 +7,14 @@
     padding: 2rem 3rem 3rem 3rem;
   }
   
-  .visitas {
+  .radio {
     font-size: 1.5rem;
     font-weight: 330;
     text-align: left;
     margin-top: 1rem;
     text-align: start;
   }
-  .visitas-texto {
+  .radio-texto {
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -22,7 +22,7 @@
     line-height: 1.6;
   }
  
-.visitas-texto-marcado {
+.radio-texto-marcado {
     font-weight: 500;
     font-size: 1.5rem;
     margin-top: 1rem;
@@ -30,7 +30,7 @@
     line-height: 1.6;
 
   }
-  .visitas h2{
+  .radio h2{
     font-size: 2rem;
     font-weight: bold;
     text-align: center;

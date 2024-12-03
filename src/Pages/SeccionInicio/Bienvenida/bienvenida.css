@@ -19,6 +19,7 @@
   flex-direction: column;
   justify-content: start;
   align-items: start;
+  line-height: 1.6;
 }
 .bienvenida h2{
   font-size: 2rem;
