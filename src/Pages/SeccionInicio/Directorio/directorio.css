@@ -1,20 +1,69 @@
 .directorio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    padding: 3rem 3rem 3rem 3rem;
-  }
-  
-  .directorio p {
-    font-size: 1.5rem;
-    font-weight: 330;
-    text-align: left;
-    margin-top: 1rem;
-    text-align: center;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 3rem 3rem 3rem 3rem;
+}
 
-.administracion-planeacion{
-    margin-top: 100px;
+.directorio p {
+  font-size: 1.5rem;
+  font-weight: 330;
+  text-align: left;
+  margin-top: 1rem;
+  text-align: center;
+}
+.directorio-tabla {
+  width: 100%;
+  margin-top: 50px;
+}
+.directorio-tabla-titulo{
+  width: 100%;
+  background-color: #dddddd;
+  border: 1px solid #a3a3a3;
+}
+.directorio-tabla-contenido {
+  display: flex;
+  border: 1px solid #a3a3a3;
+}
+.directorio-tabla-contenido-principal{
+  flex:1;
+  border: 1px solid #a3a3a3;
+}
+.directorio-tabla-contenido-uno{
+  flex:1;
+  border-right: 1px solid #a3a3a3;
+}
+.directorio-tabla-contenido-dos{
+  flex:1;
+  border: 0px solid #a3a3a3;
+}
+
+@media (max-width: 1030px) {
+  .directorio {
+    width: 85%;
+    padding: 1rem 1rem 1rem 6rem;
+  }
+  .directorio p {
+    font-size: 1rem;
+  }
+  .directorio-tabla {
+    margin-top: 20px;
+  }
+  .directorio-tabla-titulo{
+    width: 100%;
+  }
+  .directorio-tabla-contenido {
+    display: flex;
+  }
+  .directorio-tabla-contenido-principal{
+    flex:1;
+  }
+  .directorio-tabla-contenido-uno{
+    flex:1;
+  }
+  .directorio-tabla-contenido-dos{
+    flex:1;
+  }
 }
