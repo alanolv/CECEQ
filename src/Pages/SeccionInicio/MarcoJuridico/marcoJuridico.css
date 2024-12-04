@@ -1,0 +1,44 @@
+.marco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 3rem 3rem 3rem 3rem;
+  }
+  
+  .marco p {
+    font-size: 1.5rem;
+    font-weight: 330;
+    text-align: left;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .marco-tabla {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .marco-tabla-titulo {
+    width: 100%;
+    background-color: #dddddd;
+    border: 1px solid #a3a3a3;
+  }
+  .marco-tabla-contenido {
+    display: flex;
+    border: 1px solid #a3a3a3;
+  }
+  .marco-tabla-contenido-uno {
+    flex: 1;
+    border-right: 1px solid #a3a3a3;
+  }
+  .marco-tabla-contenido-dos {
+    flex: 1;
+    border: 0px solid #a3a3a3;
+  }
+  .marco-link{
+    color: #6624ff;
+    text-decoration: none;
+  }
+  .marco-link:hover{
+    color: #240077;
+  }
