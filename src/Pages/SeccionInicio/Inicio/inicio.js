@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import "./inicio.css";
 import ReactPlayer from "react-player";
 import Carrusel from "../../../Components/Carousels/carousels";
@@ -11,13 +11,22 @@ import Agenda from "../../../sources/images/agenda.png";
 import ImgGallery from "../../../sources/images/imgGallery.png";
 import { NavLink } from "react-router-dom";
 
+
 export default function Inicio() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
   const handlePrevImage = () => {
-    console.log(posters);
+    setCurrentIndex((prevIndex) => (prevIndex === 0 ? posters.length - 1 : prevIndex - 1));
   };
+
   const handleNextImage = () => {
-    console.log("Next");
+    setCurrentIndex((prevIndex) => (prevIndex === posters.length - 1 ? 0 : prevIndex + 1));
   };
+
+  const getPrevIndex = () => (currentIndex === 0 ? posters.length - 1 : currentIndex - 1);
+  const getNextIndex = () => (currentIndex === posters.length - 1 ? 0 : currentIndex + 1);
+
+
   return (
     <div className="inicio-container">
       <div className="inicio-carrusel">
@@ -41,17 +50,17 @@ export default function Inicio() {
             />
           </div>
           <img
-            src="http://gomezmorin.queretaro.gob.mx/images/stopmotion237x381.jpg?crc=220849467"
+            src={posters[getPrevIndex()].img}
             alt="poster"
             className="prev-poster"
           />
           <img
-            src="http://gomezmorin.queretaro.gob.mx/images/solidwork232x373.jpg?crc=4117728260"
+            src={posters[currentIndex].img}
             alt="poster"
             className="current-poster"
           />
           <img
-            src="http://gomezmorin.queretaro.gob.mx/images/stopmotion237x381.jpg?crc=220849467"
+            src={posters[getNextIndex()].img}
             alt="poster"
             className="next-poster"
           />
@@ -60,7 +69,7 @@ export default function Inicio() {
               src={RightArrow}
               alt="left-arrow"
               width={50}
-              onClick={handlePrevImage}
+              onClick={handleNextImage}
               className="inicio-talleres-buttons"
             />
           </div>
