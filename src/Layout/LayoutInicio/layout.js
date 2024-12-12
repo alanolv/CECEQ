@@ -11,7 +11,7 @@ export default function Layout({ children }) {
   const location = useLocation();
   const [bannerImage, setBannerImage] = useState("");
 
-  const excludedBannerRoutes = ["/", "/Murales","/Galerias","/Agenda"];
+  const excludedBannerRoutes = ["/", "/Murales","/Galerias","/Agenda","/SitiosInteres"];
   const excludedSidebarRoutes = ["/", "/Murales", "/Galerias","/Agenda"];
 
   const isExcludedRoute = (routes) => routes.includes(location.pathname);

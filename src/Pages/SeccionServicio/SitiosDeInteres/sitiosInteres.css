@@ -1,0 +1,90 @@
+.sitiosInteres {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 2rem 3rem 3rem 3rem;
+  }
+  
+  .sitiosInteres {
+    font-size: 1.5rem;
+    font-weight: 330;
+    text-align: left;
+    margin-top: 1rem;
+    text-align: start;
+  }
+  .sitiosInteres-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    line-height: 1.6;
+  }
+  
+  .sitiosInteres-texto-marcado {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-align: start;
+    line-height: 1.6;
+  }
+  .sitiosInteres h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .sitiosInteres hr {
+    width: 100%;
+  }
+  .sitiosInteres-tarjeta{
+      display: flex;
+      width: 100%;
+  }
+  .sitiosInteres-tarjeta-texto{
+      flex: 5;
+  }
+  .sitiosInteres-tarjeta-imagen {
+      flex: 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .sitiosInteres-tarjeta-imagen img {
+      max-width: 100%;
+      height: auto;
+    }
+    .sitiosInteres-button{
+      background-color: #4197CB;
+      font-size: 18px;
+      border: none;
+      color: white;
+      padding: 6px 18px;
+      border-radius: .6rem;
+    }
+  
+    @media (max-width: 658px) {
+      .sitiosInteres {
+        padding: 2rem 2rem 2rem 2rem;
+      }
+      .sitiosInteres-texto {
+        font-size: 1.2rem;
+      }
+      .sitiosInteres-texto-marcado {
+        font-size: 1.2rem;
+      }
+      .sitiosInteres h2 {
+        font-size: 1.5rem;
+      }
+      .sitiosInteres-tarjeta {
+        flex-direction: column;
+      }
+      .sitiosInteres-tarjeta-imagen {
+        flex: 1;
+      }
+      .sitiosInteres-tarjeta-texto {
+        flex: 1;
+      }
+    }
+  
