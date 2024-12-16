@@ -1,0 +1,39 @@
+.servicio-biblioteca {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 2rem 3rem 3rem 3rem;
+}
+
+.servicio-biblioteca {
+  font-size: 1.5rem;
+  font-weight: 330;
+  text-align: left;
+  margin-top: 1rem;
+  text-align: start;
+}
+.servicio-biblioteca-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  line-height: 1.6;
+}
+
+.servicio-biblioteca-texto-marcado {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  text-align: start;
+  line-height: 1.6;
+}
+.servicio-biblioteca h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+.servicio-biblioteca-lista {
+  list-style-type: circle;
+}
