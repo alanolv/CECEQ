@@ -8,7 +8,6 @@ import { NavLink } from "react-router-dom";
 import { posters } from "../../../sources/utilities/PosterTalleres/posterTalleres";
 import SpotifyImage from "../../../sources/images/Galerias/spotify.png";
 import Murales from "../../../sources/images/Galerias/murales.jpg";
-import Agenda from "../../../sources/images/Galerias/agenda.png";
 import ImgGallery from "../../../sources/images/Galerias/imgGallery.png";
 
 
@@ -85,9 +84,6 @@ export default function Inicio() {
               </NavLink>
               <NavLink to="/Galerias">
                 <img src={ImgGallery} alt="poster" />
-              </NavLink>
-              <NavLink to="/Agenda">
-                <img src={Agenda} alt="poster" />
               </NavLink>
             </div>
           </div>

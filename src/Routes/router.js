@@ -58,8 +58,6 @@ export default function Router() {
         <Route path="/Murales" element={<Layout><Pagina.Murales/></Layout>}/>
          {/* //Ruta de acceso a la pagina de galerias*/} 
         <Route path="/Galerias" element={<Layout><Pagina.Galerias/></Layout>}/>
-          {/* //Ruta de acceso a la pagina de agenda*/}
-        <Route path="/Agenda" element={<Layout><Pagina.Agenda/></Layout>}/>
         
       </Routes>
     </BrowserRouter>

@@ -28,4 +28,3 @@ export {default as Transparencia} from "../../../Pages/SeccionTransparencia/Avis
 //Exportamos las paginas de la seccion de murales
 export {default as Murales} from "../../../Pages/SeccionGalerias/Murales/murales";
 export {default as Galerias} from "../../../Pages/SeccionGalerias/Imagenes/imgGallery";
-export {default as Agenda} from "../../../Pages/SeccionGalerias/Agenda/agenda";

@@ -22,6 +22,7 @@
   text-align: center;
   justify-content: center;
   align-items: center;
+  line-height: 1.6;
   margin-top: 10px;
 }
 .inicio-talleres {
@@ -33,6 +34,7 @@
   font-size: 2.5em;
   text-align: center;
   color: #1c1c1c;
+  line-height: 1.6;
 }
 
 .posters{
@@ -158,10 +160,12 @@
   font-size: 2.5em;
   text-align: center;
   color: #1c1c1c;
+  line-height: 1.6;
 }
 
 .inicio-sobre-nosotros-parrafo{
   width: 100%;
+  line-height: 1.6;
   display: flex;
   text-align: center;
   justify-content: center;

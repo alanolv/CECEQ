@@ -7,11 +7,13 @@
     color: white;
     text-align: start;
     overflow: visible;
+    line-height: 1.6;
 }
 
 .footer-content {
     margin: 20px;
     margin-top: 25px;
+    
 }
 
 .footer-copy {
@@ -20,6 +22,7 @@
     justify-content: start;
     flex-wrap: wrap; 
     width: 100%; 
+    line-height: 1.6;
 }
 
 .footer-copy img {
