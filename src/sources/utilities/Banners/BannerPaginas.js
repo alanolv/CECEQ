@@ -1,5 +1,4 @@
 import Cultura360 from "../../images/PagesBanners/cultura360.png"
-import CasaTodos from "../../images/PagesBanners/bannerCasaDeTodos.png"
 import Bienvenida from "../../images/PagesBanners/Inicio/bienvenidaInicio.jpg"
 import Directorio from "../../images/PagesBanners/Inicio/directorioInicio.jpg"
 import MarcoJuridico from "../../images/PagesBanners/Inicio/marcoJuridicoInicio.jpg"
