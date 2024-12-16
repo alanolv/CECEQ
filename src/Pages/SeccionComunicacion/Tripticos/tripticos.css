@@ -1,0 +1,100 @@
+.triptico {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 3rem 3rem 3rem 3rem;
+  }
+  
+  .triptico p {
+    font-size: 1.5rem;
+    font-weight: 330;
+    text-align: left;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .triptico-tabla {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .triptico-tabla-titulo {
+    width: 100%;
+    background-color: #dddddd;
+    border: 1px solid #a3a3a3;
+  }
+  .triptico-tabla-contenido {
+    display: flex;
+    border: 1px solid #a3a3a3;
+  }
+  .triptico-tabla-contenido-uno {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    border-right: 1px solid #a3a3a3;
+  }
+  .triptico-tabla-contenido-dos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    border: 0px solid #a3a3a3;
+  }
+  .triptico-tabla-contenido-tres {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 33%;
+    border-left: 1px solid #a3a3a3;
+    overflow-wrap: anywhere;
+  
+  }
+  .triptico-vinculo {
+    text-decoration: none;
+    color: rgb(189, 107, 255);
+    font-size: 1.5rem;
+    font-weight: 330;
+    text-align: left;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .triptico-vinculo:hover {
+    color: rgb(30, 15, 43);
+    font-size: 1.5rem;
+    font-weight: 330;
+    text-align: left;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  @media (max-width: 1030px) {
+    .triptico {
+      width: 100%;
+      padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    }
+    .triptico p {
+      font-size: 0.8rem;
+    }
+    .triptico-vinculo {
+      font-size: 0.8rem;
+    }
+    .triptico-tabla {
+      margin-top: 20px;
+    }
+    .triptico-tabla-titulo {
+      width: 100%;
+    }
+    .triptico-tabla-contenido {
+      display: flex;
+    }
+  
+    .triptico-tabla-contenido-uno {
+      flex: 1;
+    }
+    .triptico-tabla-contenido-dos {
+      flex: 1;
+    }
+  }
+  

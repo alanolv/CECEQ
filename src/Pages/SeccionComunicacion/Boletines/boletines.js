@@ -6,7 +6,7 @@ export default function Boletines() {
     <div className="boletines">
       <h2>Boletines</h2>
       <div className="boletines-tabla">
-        {/* Direccion general */}
+       
         <div className="boletines-tabla-titulo">
           <p>2024</p>
         </div>
@@ -37,7 +37,7 @@ export default function Boletines() {
               href="https://portal.queretaro.gob.mx/prensa/contenido.aspx?q=vUYGbsxLnljgVT9UZU5Uu4acympR6j0ISLUiMkGejeiyRfiTuNK09g=="
               className="boletines-vinculo"
             >
-              Contenido Febrero
+              Boletin febrero
             </a>
           </div>
         </div>
@@ -55,7 +55,7 @@ export default function Boletines() {
               href="https://portal.queretaro.gob.mx/prensa/contenido.aspx?q=vUYGbsxLnliUiSMt0jz929wBRV2n3fqK7xA+Hux5ww1xtjxdStpcLQ=="
               className="boletines-vinculo"
             >
-              Contenido Mayo
+              Boletin mayo
             </a>
           </div>
         </div>

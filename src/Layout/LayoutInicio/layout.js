@@ -11,7 +11,7 @@ export default function Layout({ children }) {
   const location = useLocation();
   const [bannerImage, setBannerImage] = useState("");
 
-  const excludedBannerRoutes = ["/", "/Murales","/Galerias","/Agenda","/SitiosInteres","/Boletines"];
+  const excludedBannerRoutes = ["/", "/Murales","/Galerias","/Agenda","/SitiosInteres","/Boletines","/Triptico"];
   const excludedSidebarRoutes = ["/", "/Murales", "/Galerias","/Agenda"];
 
   const isExcludedRoute = (routes) => routes.includes(location.pathname);
@@ -21,7 +21,7 @@ export default function Layout({ children }) {
     if (banner) {
       setBannerImage(banner.image);
     } else {
-      setBannerImage(""); // O una imagen por defecto si lo prefieres
+      setBannerImage("");
     }
   }, [location.pathname]);
 
