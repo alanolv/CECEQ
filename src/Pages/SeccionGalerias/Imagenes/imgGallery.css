@@ -11,3 +11,25 @@
     margin-top: 1rem;
     text-align: center;
   }
+  .gallery-vinculo{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(104, 76, 231)
+  }
+  .gallery-vinculo:hover{
+    cursor: pointer;
+    color: rgb(33, 21, 90);
+  }
+  
+
+
+@media (max-width: 768px) {
+  .image-gallery-slide img {
+    width: 100%;
+    height: auto;
+  }
+  .gallery {
+    max-width: 30%;
+    margin: 0 auto;
+  }
+}
