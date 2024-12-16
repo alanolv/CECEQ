@@ -5,14 +5,25 @@ import NavBar from "../../Components/NavBar/navBar";
 import Footer from "../../Components/Footer/footer";
 import FacebookCard from "../../Components/FacebookCard/facebookCard";
 import TwiterCard from "../../Components/TwiterCard/twiterCard";
-import { banners } from "../../sources/utilities/Banners/BannerPaginas";
+import { banners } from "../../sources/utilities/Banners/bannerPaginas";
 
 export default function Layout({ children }) {
   const location = useLocation();
   const [bannerImage, setBannerImage] = useState("");
 
-  const excludedBannerRoutes = ["/", "/Murales","/Galerias","/Agenda","/SitiosInteres","/Boletines","/Triptico"];
-  const excludedSidebarRoutes = ["/", "/Murales", "/Galerias","/Agenda"];
+  const excludedBannerRoutes = [
+    "/",
+    "/Murales",
+    "/Galerias",
+    "/Agenda",
+    "/SitiosInteres",
+    "/Boletines",
+    "/Triptico",
+    "/HorarioAtencion",
+    "/SitiosInteres",
+    "/AvisoPrivacidad",
+  ];
+  const excludedSidebarRoutes = ["/", "/Murales", "/Galerias", "/Agenda"];
 
   const isExcludedRoute = (routes) => routes.includes(location.pathname);
 
@@ -33,12 +44,7 @@ export default function Layout({ children }) {
       <div className="content">
         {!isExcludedRoute(excludedBannerRoutes) && bannerImage && (
           <div className="banner">
-            <img
-              src={bannerImage}
-              alt="Banner"
-              className="banner-image"
-              class="d-block w-100 custom-image"
-            />
+            <img src={bannerImage} alt="Banner" className="banner-image" />
           </div>
         )}
         <div className="blog-content">

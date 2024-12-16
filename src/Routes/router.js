@@ -138,6 +138,15 @@ export default function Router() {
             </Layout>
           }
         />
+         {/* //Ruta de acceso a la pagina de Pendulos */}
+         <Route
+          path="/Instalaciones/Pendulo"
+          element={
+            <Layout>
+              <Pagina.Pendulo />
+            </Layout>
+          }
+        />
         {/* //Ruta de acceso a la pagina de Sitios de interes */}
         <Route
           path="/SitiosInteres"

@@ -1,60 +1,70 @@
 import Cultura360 from "../../images/PagesBanners/cultura360.png"
 import CasaTodos from "../../images/PagesBanners/bannerCasaDeTodos.png"
-
+import Bienvenida from "../../images/PagesBanners/Inicio/bienvenidaInicio.jpg"
+import Directorio from "../../images/PagesBanners/Inicio/directorioInicio.jpg"
+import MarcoJuridico from "../../images/PagesBanners/Inicio/marcoJuridicoInicio.jpg"
+import Nosotros from "../../images/PagesBanners/Inicio/nosotrosInicio.jpg"
+import Biblioteca from "../../images/PagesBanners/Servicio/bibliotecaServicios.jpg"
+import AreaInfantil from "../../images/PagesBanners/Servicio/areaInfantilSerivicio.jpg"
+import BibliotecaDigital from "../../images/PagesBanners/Servicio/bibliotecaDigitalServicio.jpg"
+import SalaDeLectura from "../../images/PagesBanners/Servicio/areaInfantilSerivicio.jpg"
+import ServicioBiblioteca from "../../images/PagesBanners/Servicio/servicioBiblioteca.jpg"
+import CentroComputo from "../../images/PagesBanners/Servicio/centroComputoServicio.jpg"
+import Instalaciones from "../../images/PagesBanners/Servicio/instalacionesServicios.jpg"
+import Pendulo from "../../images/PagesBanners/Servicio/penduloServicio.jpg"
+import Visitas from "../../images/PagesBanners/Servicio/visitasServicios.jpg"
+import EjeRadio from "../../images/PagesBanners/Comunicacion/cultura360Comunicacion.jpg"
+import Dependencias from "../../images/PagesBanners/Dependencia/dependencias.jpg"
 export const banners = [
     //Banners Seccion de Inicio
     {
         page: "/Bienvenida",
-        image: Cultura360
+        image: Bienvenida
     },
     {
         page: "/Directorio",
-        image: CasaTodos,
-    },
-    {
-        page: "/HorarioAtencion",
-        image: Cultura360
+        image: Directorio,
     },
     {
         page: "/MarcoJuridico",
-        image: CasaTodos,
+        image: MarcoJuridico,
     },
     {
         page:"/Nosotros",
-        image: Cultura360
+        image: Nosotros
     },
     //Banners Seccion de Servicios
     {
         page: "/Biblioteca",
-        image: Cultura360
+        image: Biblioteca
     },
     {
         page: "/Biblioteca/AreaInfantil",
-        image: CasaTodos,
+        image: AreaInfantil,
     },
     {
         page: "/Biblioteca/BibliotecaDigital",
-        image: Cultura360
+        image: BibliotecaDigital
     },
     {
         page: "/Biblioteca/SalaDeLectura",
-        image: CasaTodos,
+        image: SalaDeLectura,
     },
     {
         page: "/Biblioteca/ServicioBiblioteca",
-        image: Cultura360
+        image: ServicioBiblioteca
     },
     {
         page: "/CentroComputo",
-        image: CasaTodos,
+        image: CentroComputo,
     },
     {
         page: "/Instalaciones",
-        image: Cultura360
+        image: Instalaciones,
     },
     {
-        page: "/SitiosInteres",
-        image: CasaTodos,
+        page: "/Pendulo",
+        image: Pendulo,
     },
     {
         page:"/Talleres",
@@ -62,34 +72,18 @@ export const banners = [
     },
     {
         page:"/Visitas",
-        image: CasaTodos
+        image: Visitas
     },
     //Banners Seccion de Comunicacion
-    
-    {
-        page: "/Comunicacion",
-        image: Cultura360
-    },
-    {
-        page: "/Boletines",
-        image: CasaTodos,
-    },
-    {
-        page: "/Triptico",
-        image: Cultura360
-    },
     {
         page: "/EjeRadio",
-        image: CasaTodos,
+        image: EjeRadio,
     },
     //Banners Seccion de Dependencias
     {
         page: "/Dependencias",
-        image: Cultura360
+        image: Dependencias
     },
      //Banners Seccion de Transparencia
-     {
-        page: "/AvisoPrivacidad",
-        image: Cultura360
-    },
+  
 ];

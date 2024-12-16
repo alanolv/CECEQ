@@ -17,6 +17,7 @@ export {default as AreaInfantil} from "../../../Pages/SeccionServicio/AreaInfant
 export {default as BibliotecaDigital} from "../../../Pages/SeccionServicio/BibliotecaDigital/bibliotecaDigital";
 export {default as ServicioBiblioteca} from "../../../Pages/SeccionServicio/ServicioBiblioteca/servicioBiblioteca";
 export {default as SalaLectura} from "../../../Pages/SeccionServicio/SalaLectura/salaLectura";
+export {default as Pendulo} from "../../../Pages/SeccionServicio/Pendulo/pendulo";
 
 //Exportamos las paginas de la seccion de comunicacion
 export {default as Boletines} from "../../../Pages/SeccionComunicacion/Boletines/boletines";
