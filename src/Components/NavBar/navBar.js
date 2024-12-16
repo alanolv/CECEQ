@@ -1,8 +1,8 @@
 import React  from "react";
 import "./navBar.css";
 import { NavLink } from "react-router-dom";
-import logoM from "../../sources/images/logo_gm.png";
-import heraldica from "../../sources/images/heraldica.png";
+import logoM from "../../sources/images/Logos/logo_gm.png";
+import heraldica from "../../sources/images/Logos/heraldica.png";
 import arrowLineUp from "../../sources/svg/arrowLineUp.svg";
 import arrowLineDown from "../../sources/svg/arrowLineDown.svg";
 import { useState } from "react";

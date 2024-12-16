@@ -13,6 +13,10 @@ export {default as Instalaciones} from "../../../Pages/SeccionServicio/Instalaci
 export {default as SitiosInteres} from "../../../Pages/SeccionServicio/SitiosDeInteres/sitiosInteres";
 export {default as Talleres} from "../../../Pages/SeccionServicio/Talleres/talleres";
 export {default as Visitas} from "../../../Pages/SeccionServicio/Visitas/visitas";
+export {default as AreaInfantil} from "../../../Pages/SeccionServicio/AreaInfantil/areaInfantil";
+export {default as BibliotecaDigital} from "../../../Pages/SeccionServicio/BibliotecaDigital/bibliotecaDigital";
+export {default as ServicioBiblioteca} from "../../../Pages/SeccionServicio/ServicioBiblioteca/servicioBiblioteca";
+export {default as SalaLectura} from "../../../Pages/SeccionServicio/SalaLectura/salaLectura";
 
 //Exportamos las paginas de la seccion de comunicacion
 export {default as Boletines} from "../../../Pages/SeccionComunicacion/Boletines/boletines";

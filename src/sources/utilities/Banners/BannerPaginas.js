@@ -1,5 +1,5 @@
-import Cultura360 from "../../images/cultura360.png"
-import CasaTodos from "../../images/bannerCasaDeTodos.png"
+import Cultura360 from "../../images/PagesBanners/cultura360.png"
+import CasaTodos from "../../images/PagesBanners/bannerCasaDeTodos.png"
 
 export const banners = [
     //Banners Seccion de Inicio
@@ -26,6 +26,22 @@ export const banners = [
     //Banners Seccion de Servicios
     {
         page: "/Biblioteca",
+        image: Cultura360
+    },
+    {
+        page: "/Biblioteca/AreaInfantil",
+        image: CasaTodos,
+    },
+    {
+        page: "/Biblioteca/BibliotecaDigital",
+        image: Cultura360
+    },
+    {
+        page: "/Biblioteca/SalaDeLectura",
+        image: CasaTodos,
+    },
+    {
+        page: "/Biblioteca/ServicioBiblioteca",
         image: Cultura360
     },
     {
