@@ -1,0 +1,42 @@
+.area-infantil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 2rem 3rem 3rem 3rem;
+  }
+  
+  .area-infantil {
+    font-size: 1.5rem;
+    font-weight: 330;
+    text-align: left;
+    margin-top: 1rem;
+    text-align: start;
+  }
+  .area-infantil-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    line-height: 1.6;
+  }
+ 
+.area-infantil-texto-marcado {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-align: start;
+    line-height: 1.6;
+
+  }
+  .area-infantil h2{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .area-infantil-autor{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+  }
