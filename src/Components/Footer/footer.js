@@ -2,7 +2,7 @@ import React from "react";
 import "./footer.css";
 import { NavLink } from "react-router-dom";
 import FacebookLogo from "../../sources/svg/facebook.svg";
-import TwitterLogo from "../../sources/svg/x-social.svg";
+import TwitterLogo from "../../sources/svg/xSocial.svg";
 import InstagramLogo from "../../sources/svg/instagram.svg";
 import TiktokLogo from "../../sources/svg/tiktok.svg";
 
