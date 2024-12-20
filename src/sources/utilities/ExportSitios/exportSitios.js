@@ -1,5 +1,5 @@
 export {default as BibliotecaMex} from "../../images/SitiosInteres/bibliotecaMex.jpg";
-export {default as BibliotecaVirtualSalud} from "../../images/SitiosInteres/bibliotecavirtualsalud.png";
+export {default as BibliotecaVirtualSalud} from "../../images/SitiosInteres/bibliotecavirtualsalud.gif";
 export {default as Caltech} from "../../images/SitiosInteres/caltech.jpg";
 export {default as Cepal} from "../../images/SitiosInteres/cepal.jpg";
 export {default as Ciidet} from "../../images/SitiosInteres/ciidet.jpg";

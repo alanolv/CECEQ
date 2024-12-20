@@ -1,6 +1,5 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./inicio.css";
-import ReactPlayer from "react-player";
 import Carrusel from "../../../Components/Carousels/carousels";
 import LeftArrow from "../../../sources/svg/leftArrow.svg";
 import RightArrow from "../../../sources/svg/rightArrow.svg";
@@ -10,22 +9,25 @@ import SpotifyImage from "../../../sources/images/Galerias/spotify.png";
 import Murales from "../../../sources/images/Galerias/murales.jpg";
 import ImgGallery from "../../../sources/images/Galerias/imgGallery.png";
 
-
-
 export default function Inicio() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handlePrevImage = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === 0 ? posters.length - 1 : prevIndex - 1));
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? posters.length - 1 : prevIndex - 1
+    );
   };
 
   const handleNextImage = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === posters.length - 1 ? 0 : prevIndex + 1));
+    setCurrentIndex((prevIndex) =>
+      prevIndex === posters.length - 1 ? 0 : prevIndex + 1
+    );
   };
 
-  const getPrevIndex = () => (currentIndex === 0 ? posters.length - 1 : currentIndex - 1);
-  const getNextIndex = () => (currentIndex === posters.length - 1 ? 0 : currentIndex + 1);
-
+  const getPrevIndex = () =>
+    currentIndex === 0 ? posters.length - 1 : currentIndex - 1;
+  const getNextIndex = () =>
+    currentIndex === posters.length - 1 ? 0 : currentIndex + 1;
 
   return (
     <div className="inicio-container">
@@ -92,14 +94,15 @@ export default function Inicio() {
               Centro Educativo y Cultural del Estado
             </h2>
             <div className="inicio-sobre-nosotros-video">
-              <ReactPlayer
-                url={"https://www.youtube.com/watch?v=gDLNL4lS2ws"}
-                playing={false}
-                controls={false}
-                width={"100%"}
-                height={"100%"}
-                loading={"lazy"}
-              />
+              <iframe
+                width="520"
+                height="435"
+                src="https://www.youtube.com/embed/gDLNL4lS2ws?si=zq3meM0NIS2Vq2RY"
+                title="YouTube video player"
+                frameborder="0"
+
+                allowfullscreen
+              ></iframe>
             </div>
             <p className="inicio-sobre-nosotros-parrafo">
               El Centro Educativo y Cultural del Estado de Querétaro (CECEQ)
