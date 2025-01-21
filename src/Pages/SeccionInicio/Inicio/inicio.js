@@ -5,9 +5,9 @@ import LeftArrow from "../../../sources/svg/leftArrow.svg";
 import RightArrow from "../../../sources/svg/rightArrow.svg";
 import { NavLink } from "react-router-dom";
 import { posters } from "../../../sources/utilities/PosterTalleres/posterTalleres";
-import SpotifyImage from "../../../sources/images/Galerias/spotify.png";
-import Murales from "../../../sources/images/Galerias/murales.jpg";
-import ImgGallery from "../../../sources/images/Galerias/imgGallery.png";
+import SpotifyImage from "../../../sources/images/Galerias/InicioGaleria/spotify.png";
+import Murales from "../../../sources/images/Galerias/InicioGaleria/murales.jpg";
+import ImgGallery from "../../../sources/images/Galerias/InicioGaleria/imgGallery.png";
 
 export default function Inicio() {
   const [currentIndex, setCurrentIndex] = useState(0);
