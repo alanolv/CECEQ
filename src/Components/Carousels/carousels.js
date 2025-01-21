@@ -1,7 +1,7 @@
 import './carousels.css';
-import BannerCadaTodos from "../../sources/images/PagesBanners/bannerCasaDeTodos.png"
-import Cultura360 from "../../sources/images/PagesBanners/cultura360.png"
-import eje5 from "../../sources/images/PagesBanners/eje5.png"
+import BannerCadaTodos from "../../sources/images/CarruselImages/bannerCasaDeTodos.png"
+import Cultura360 from "../../sources/images/CarruselImages/cultura360.png"
+import eje5 from "../../sources/images/CarruselImages/eje5.png"
 
 export default function Carrusel() {
   return (

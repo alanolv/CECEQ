@@ -1,4 +1,3 @@
-import Cultura360 from "../../images/PagesBanners/cultura360.png"
 import Bienvenida from "../../images/PagesBanners/Inicio/bienvenidaInicio.jpg"
 import Directorio from "../../images/PagesBanners/Inicio/directorioInicio.jpg"
 import MarcoJuridico from "../../images/PagesBanners/Inicio/marcoJuridicoInicio.jpg"
@@ -67,7 +66,7 @@ export const banners = [
     },
     {
         page:"/Talleres",
-        image: Cultura360
+        image: Pendulo
     },
     {
         page:"/Visitas",
