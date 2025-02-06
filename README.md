@@ -2,4 +2,4 @@
 
 ### Proyecto creado con el framework React, siguiendo los lineamientos proporcionados por CECEQ
 
-## Developed by aolvera
+Developed by alanolv
